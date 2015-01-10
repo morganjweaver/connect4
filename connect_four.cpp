@@ -7,3 +7,21 @@
 //
 
 #include "connect_four.h"
+#include <iostream>
+
+using namespace std;
+
+
+Board::Board()
+{
+
+}
+
+void Board::draw(){
+    cout << "O O O O O O O" << endl;
+    cout << "O O O O O O O" << endl;
+    cout << "O O O O O O O" << endl;
+    cout << "O O O O O O O" << endl;
+    cout << "O O O O O O O" << endl;
+    cout << "O O O O O O O" << endl;
+}

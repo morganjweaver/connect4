@@ -11,4 +11,13 @@
 
 #include <stdio.h>
 
+class Board
+{
+public:
+    Board();
+    void draw();
+    
+};
+
+
 #endif /* defined(__Experiment_I__connect_four__) */

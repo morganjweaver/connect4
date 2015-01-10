@@ -7,22 +7,12 @@
 //
 
 #include <iostream>
-#include "Queen.h"
-//#include "Pawn.h"
+#include "connect_four.h"
 
 
-class Pawn: public Queen
-{
-public:
-    Pawn();
-};
-
-int main () {
-    Queen mum;
-    mum.sayName();
+int main (){
+    Board simone;
+    simone.draw();
     
-    Pawn edwin;
-    edwin.sayName();
+    
 }
-
-
