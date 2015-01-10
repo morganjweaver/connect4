@@ -18,10 +18,8 @@ Board::Board()
 }
 
 void Board::draw(){
-    cout << "O O O O O O O" << endl;
-    cout << "O O O O O O O" << endl;
-    cout << "O O O O O O O" << endl;
-    cout << "O O O O O O O" << endl;
-    cout << "O O O O O O O" << endl;
-    cout << "O O O O O O O" << endl;
-}
+    int i;
+    for (i = 0; i<8; i++){
+        cout << "O O O O O O O" << endl;
+    }
+};
