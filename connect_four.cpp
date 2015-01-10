@@ -12,16 +12,17 @@
 using namespace std;
 
 
-Board::Board()
+Board::Board(int h,int w)
 {
-
+    height = h;
+    width = w;
 }
 
 void Board::draw(){
     int i;
-    for (i = 0; i<6; i++){
+    for (i = 0; i<height; i++){
         int b;
-        for (b=0; b<7; b++){
+        for (b=0; b<width; b++){
             cout << "O ";
         };
         cout << endl;

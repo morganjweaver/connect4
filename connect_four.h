@@ -14,8 +14,11 @@
 class Board
 {
 public:
-    Board();
+    Board(int h, int w);
     void draw();
+protected:
+    int width;
+    int height;
     
 };
 

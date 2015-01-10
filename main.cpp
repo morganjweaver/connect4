@@ -11,7 +11,7 @@
 
 
 int main (){
-    Board simone;
+    Board simone = *new Board(6,3);
     simone.draw();
     
     
