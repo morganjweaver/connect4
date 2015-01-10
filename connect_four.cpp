@@ -19,7 +19,11 @@ Board::Board()
 
 void Board::draw(){
     int i;
-    for (i = 0; i<7; i++){
-        cout << "O O O O O O O" << endl;
+    for (i = 0; i<6; i++){
+        int b;
+        for (b=0; b<7; b++){
+            cout << "O ";
+        };
+        cout << endl;
     }
 };
